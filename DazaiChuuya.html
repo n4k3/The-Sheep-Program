@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Yuan.css"/>
+    <script src="Mori.js"></script>
+    <title>TuinDarukku</title>
+</head>
+<body id="House">
+    <header>
+        <div class="menubar">
+            <h1 class="pagetitle">Page of mine</h1>
+            <div class="menubar">
+                <ul>
+                    <a href="House">
+                        <li class="menuitems">House</li>
+                    </a>    
+                    <a href="Challenges">
+                        <li class="menuitems">Challenges</li>
+                    </a>
+                    <li class="menuitems">Contribute to the workers</li>
+                    <li class="menuitems"><button class="signinbutton">Sign In</button> </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class+="banner" id="Challenges">
+            <div class="bannertext">
+                <h2>Welcome to this space</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero placeat, quasi quidem veniam earum ipsa ut corrupti accusantium reiciendis odit dignissimos! Sit autem beatae nemo ut numquam voluptatem, qui itaque!</p>
+            <ul>
+                 <li class="bannerbuttons"></li><button>Visit le database</button></li>
+                 <li class="bannerbuttons"></li><button>Meet the workers that work</button></li>
+            </ul>
+        </div>
+        <div class="banner">
+            <img class="bannerimg"alt="Code" src="/Media/dummis.jpg"/>
+        </div>
+    </div>
+    <div>
+        <h2>The programming solutions Database™</h2>
+        <div class="greatcontainer">
+             <div class="card">
+                <img class="bannerimg2"alt="flowchart" src="./media/frowchart.png"/>
+                <h3>Yearly Budget problem</h3> 
+                <p class="flowcharttext"></p>In a hospital, we can find three areas: Urgencies, Pediatric and Traumatology.
+                    The yearly budget is distributed: Urgencies (37%), Pediatric (42%) and Traumatology (21%). 
+                    Get the amount of money that each section will receive from a given budget.</p>
+                    <button onclick="location.href='./media/frowchart.png'">View flowchart</button> 
+            </div>
+           <div class="card">
+                <img class="bannerimg2"alt="flowchart" src="./media/startt.png"/>
+                 <h3>Calculating the salary</h3> 
+                 <p class="flowcharttext">Do a flowchart that can calculate the yearly salary of a person that earns $40000 per year in accordance of the following criteria:
+
+                    If employee is working more than 10 years, will apply an increment of 10%.
+                    If employee is working less than 10 years but more than 5 years, will apply an increment of 7%. 
+                    If employee is working less than 5 years but more than 3 years, will apply an increment of 5%. 
+                    If employee is working less than 3 years, will apply an increment of 3%. 
+                </p>
+                <button onclick="location.href='./media/startt.png'">View flowchart</button> 
+            </div>
+        </div>
+    <div class="card"> </div>
+       <h2> Meet the workers</h2>
+        <div>
+            <img class="bannerimg2"alt="my photo (real)"src="Media/yuan.jpg"/>
+            <h5>Yuan</h5>
+            <h6>Student</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad beatae perferendis non repellendus molestias eius qui nobis dolor, deleniti inventore illum odit enim? Ullam quae at error deserunt obcaecati esse.</p>
+            </div>
+    <div class="subscribe">
+        <h2 class="crewtitle">Do you want more information about the project?</h2>
+        <h4>Type your email to subscribe n' receive special access</h4>
+        <form action="javascript:sendMail(name.value)" method="post">
+            <input type="email" name="email" placeholder="mail@example.com">
+            <input class="sendsubscription" type="submit" name="sendMail" value="Send">
+        </form>
+        <div class="mailconfirmation"><p id="mailsuccess"></p></div>
+        </div>  
+    <script>
+        let random=Math.floor(Math.random()*100);
+    </script>   
+    <div class="subscribe">
+        <h2 class="crewtitle">An additional quest for you!!</h2>
+        <label for="number">Type a number between 0 and 100. Try to guess the number muahaha</label>
+        <form action="javascript:guessNumber(number.value, random)" method="post">
+            <input type="number" id="number" name="number"/>
+            <input class="subscribebutton" type="submit" name="guess" value="Guess now hmm"/>
+        </form>
+            <p id="answer"></p>
+    </div>
+        <footer>
+        </footer>
+    </main>
+</body>
+</html>

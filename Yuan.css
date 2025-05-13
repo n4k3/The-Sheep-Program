@@ -1,0 +1,87 @@
+body{
+    background-color: lightpink;
+    font-family:cursive
+}
+.menubar{
+    display: inline-block;
+    background-color:rgb(241, 103, 160);
+}
+.pagetitle{
+    display: inline-block;
+    padding-right: 20vw;
+    color:black;
+}
+.menuitems{
+    display: inline-block;
+    padding-right: 10px;
+    color:black;
+}
+a{
+    text-decoration: none;
+}
+.signinbutton{
+    background-color:lightcoral;
+    color:black;
+    font-weight: bold;
+}
+.card{
+    width: 20vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    border: 1px rgb(241, 103, 160);
+    vertical-align: top;
+}    
+.greatcontainer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1%;
+}
+.flowchart{
+    width: 100%;
+    display: block;
+}
+.banner{
+    display: inline-block;
+}
+.bannertext{
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+}
+.bannerimg{
+    display: inline-block;
+    width: 25vw;
+    height: auto;
+}
+.bannerbuttons{
+    display: inline-block;
+}
+.bannerimg2{
+    display: inline-block;
+    width: 30vw;
+    height: auto;
+}
+.flowcharttext{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    text-align: justify;
+}
+.subscribe form {
+    display: flex;
+    justify-content: space-around;
+}
+.subscribe form input{
+    width: 30%;
+    height: 1%;
+    padding: 5px 10px 5px 10px;
+}
+.mailconfirmation{
+    text-align: center;
+}
+.subscribe label{
+    display: block;
+    margin-bottom: 20px;
+}
